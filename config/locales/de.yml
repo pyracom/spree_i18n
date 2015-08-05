@@ -1,4 +1,5 @@
 de:
+  free_shipping: Kostenloser Versand
   activerecord:
     attributes:
       spree/address:
@@ -274,9 +275,9 @@ de:
       new: neu
       save: Speichern
       update: aktualisieren
-    activate: Aktivieren
-    active: Aktiv
-    accepted: Akzeptiert
+    activate: aktivieren
+    active: aktiv
+    accepted: akzeptiert
     add: Hinzufügen
     add_action_of_type: Aktion hinzufügen
     add_country: Land hinzufügen
@@ -341,8 +342,9 @@ de:
     analytics_desc_list_4: Komplett kostenlos!
     analytics_trackers: Zugriffsstatistik Tracker
     and: und
-    approver: Akzeptiert von
-    approved_at: Akzeptiert am
+    approve: akzeptieren
+    approver: akzeptiert von
+    approved_at: akzeptiert am
     are_you_sure: Sind Sie sicher
     are_you_sure_delete: Sind sie sicher, dass Sie diesen Eintrag löschen möchten?
     associated_adjustment_closed: Die verknüpfte Anpassung ist geschlossen und wird nicht neu berechnet. Möchten Sie die Anpassung öffnen?
@@ -403,6 +405,7 @@ de:
     checkout: Zur Kasse
     choose_a_customer: Kunden auswählen
     choose_currency: Währung auswählen
+    choose_location: Lagerstandort auswählen ...
     choose_dashboard_locale: Dashboard-Sprache wählen
     city: Ort
     clone: Klonen
@@ -585,7 +588,7 @@ de:
     image_settings: Bildeinstellungen
     image_settings_updated: Bildeinstellungen erfolgreich aktualisiert.
     image_settings_warning: Du musst die thumbnails neu erzeugen, wenn du die paperclip styles aktualisiert hast. Benutze rake paperclip:refresh:thumbnails um das zu tun.
-    images: Bilder
+    emages: Bilder
     incomplete: unvollständig
     included_in_price: Im Preis enthalten
     included_price_validation: kann nicht gewählt werden, solange Sie nicht ein standard Steuergebiet gesetzt haben.
@@ -883,7 +886,8 @@ de:
     received: erhalten
     reference: Referenz
     refund: erstatten
-    register: Als Neukunde registrieren
+    refund_reasons: Rückerstattungsgründe
+    registes: Als Neukunde registrieren
     registration: Registrierung
     remember_me: Auf diesem Computer speichern
     remove: Entfernen
@@ -896,6 +900,7 @@ de:
     resumed: Fortgesetzt
     return: zurückgeben
     return_authorization: Rückgabebewilligung
+    return_authorization_reasons: Rückgabegründe
     reimbursements: Rückerstattungen
     reimbursement_status: Rückerstattungsstatus
     reimbursed: Rückerstattet
